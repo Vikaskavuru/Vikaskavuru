@@ -1,0 +1,242 @@
+<!DOCTYPE html>
+<html lang="en" class="scroll-smooth">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Vikas Kavuru | Senior Procurement Executive</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
+    <script src="https://unpkg.com/lucide@latest"></script>
+    <style>
+        @import url('https://fonts.googleapis.com/css2?family=Inter:wght@300;400;600;700&display=swap');
+        
+        body {
+            font-family: 'Inter', sans-serif;
+            background-color: #020617; /* Deep Navy */
+            color: #f8fafc;
+        }
+
+        .glass-card {
+            background: rgba(30, 41, 59, 0.5);
+            backdrop-filter: blur(12px);
+            border: 1px solid rgba(255, 255, 255, 0.1);
+            transition: all 0.3s ease;
+        }
+
+        .glass-card:hover {
+            border-color: rgba(59, 130, 246, 0.5);
+            transform: translateY(-5px);
+        }
+
+        .hero-gradient {
+            background: radial-gradient(circle at 50% 50%, rgba(30, 58, 138, 0.3) 0%, rgba(2, 6, 23, 1) 100%);
+        }
+
+        .network-lines {
+            background-image: radial-gradient(#1e293b 1px, transparent 1px);
+            background-size: 40px 40px;
+        }
+    </style>
+</head>
+<body class="overflow-x-hidden">
+
+    <div class="fixed inset-0 network-lines opacity-20 pointer-events-none"></div>
+
+    <nav class="fixed w-full z-50 glass-card border-none mt-4 mx-auto max-w-6xl left-0 right-0 rounded-full px-6 py-3 flex justify-between items-center">
+        <div class="text-xl font-bold tracking-tighter text-blue-400">VK.</div>
+        <div class="hidden md:flex gap-8 text-sm font-medium">
+            <a href="#about" class="hover:text-blue-400 transition">About</a>
+            <a href="#experience" class="hover:text-blue-400 transition">Experience</a>
+            <a href="#skills" class="hover:text-blue-400 transition">Skills</a>
+            <a href="#contact" class="hover:text-blue-400 transition">Contact</a>
+        </div>
+        <a href="#contact" class="bg-blue-600 hover:bg-blue-700 px-5 py-2 rounded-full text-sm transition">Hire Me</a>
+    </nav>
+
+    <section class="relative min-h-screen flex items-center justify-center hero-gradient px-6 pt-20">
+        <div class="text-center" data-aos="zoom-in" data-aos-duration="1000">
+            <div class="relative inline-block mb-8">
+                <div class="absolute inset-0 rounded-full bg-blue-500 blur-2xl opacity-20 animate-pulse"></div>
+                <img src="https://raw.githubusercontent.com/Vikaskavuru/Vikaskavuru/2c3e876260c1f60645e9442b793b22f84aeb92b0/Vikas_kavuru.jpeg" 
+                     alt="Vikas Kavuru" 
+                     class="relative w-40 h-40 md:w-56 md:h-56 rounded-full border-4 border-slate-800 object-cover shadow-2xl">
+            </div>
+            <h1 class="text-5xl md:text-7xl font-bold mb-4 tracking-tight">Vikas Kavuru</h1>
+            <p class="text-blue-400 text-xl md:text-2xl font-light mb-6">Senior Procurement Executive</p>
+            <p class="max-w-2xl mx-auto text-slate-400 mb-10 text-lg">
+                Driving efficiency in procurement and optimizing global supply chain operations through data-driven strategies and vendor excellence.
+            </p>
+            <div class="flex flex-col md:flex-row gap-4 justify-center">
+                <button class="bg-white text-slate-900 px-8 py-3 rounded-lg font-semibold hover:bg-blue-500 hover:text-white transition flex items-center justify-center gap-2">
+                    <i data-lucide="download" class="w-5 h-5"></i> Download Resume
+                </button>
+                <button class="border border-slate-700 hover:bg-slate-800 px-8 py-3 rounded-lg font-semibold transition">
+                    Contact Me
+                </button>
+            </div>
+        </div>
+    </section>
+
+    <section class="py-12 bg-slate-950/50 border-y border-slate-900">
+        <div class="max-w-6xl mx-auto px-6 grid grid-cols-2 md:grid-cols-4 gap-8 text-center">
+            <div data-aos="fade-up">
+                <div class="text-3xl font-bold text-white">50+</div>
+                <div class="text-sm text-slate-500 uppercase tracking-widest mt-1">Vendors Managed</div>
+            </div>
+            <div data-aos="fade-up" data-aos-delay="100">
+                <div class="text-3xl font-bold text-white">15%</div>
+                <div class="text-sm text-slate-500 uppercase tracking-widest mt-1">Cost Savings</div>
+            </div>
+            <div data-aos="fade-up" data-aos-delay="200">
+                <div class="text-3xl font-bold text-white">100%</div>
+                <div class="text-sm text-slate-500 uppercase tracking-widest mt-1">SLA Compliance</div>
+            </div>
+            <div data-aos="fade-up" data-aos-delay="300">
+                <div class="text-3xl font-bold text-white">3+</div>
+                <div class="text-sm text-slate-500 uppercase tracking-widest mt-1">Global Projects</div>
+            </div>
+        </div>
+    </section>
+
+    <section id="about" class="py-24 px-6 max-w-6xl mx-auto">
+        <div class="grid md:grid-cols-2 gap-16 items-center">
+            <div data-aos="fade-right">
+                <h2 class="text-3xl font-bold mb-6">Expertise in <span class="text-blue-500">Global Supply Chain</span></h2>
+                <p class="text-slate-400 leading-relaxed mb-6">
+                    A Mechanical Engineer with an MBA in Logistics & Supply Chain Management, bridging the gap between technical requirements and commercial excellence. 
+                </p>
+                <ul class="space-y-4 text-slate-300">
+                    <li class="flex items-center gap-3"><i data-lucide="check-circle" class="text-blue-500 w-5 h-5"></i> End-to-end Procurement Operations</li>
+                    <li class="flex items-center gap-3"><i data-lucide="check-circle" class="text-blue-500 w-5 h-5"></i> Vendor Management & Strategic Sourcing</li>
+                    <li class="flex items-center gap-3"><i data-lucide="check-circle" class="text-blue-500 w-5 h-5"></i> Inventory Optimization & 3PL Logistics</li>
+                </ul>
+            </div>
+            <div class="grid grid-cols-2 gap-4" data-aos="fade-left">
+                <div class="glass-card p-6 rounded-2xl text-center">
+                    <i data-lucide="cog" class="w-8 h-8 mx-auto mb-3 text-blue-400"></i>
+                    <h3 class="font-semibold">Mechanical Eng.</h3>
+                </div>
+                <div class="glass-card p-6 rounded-2xl text-center">
+                    <i data-lucide="graduation-cap" class="w-8 h-8 mx-auto mb-3 text-blue-400"></i>
+                    <h3 class="font-semibold">MBA Supply Chain</h3>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section id="experience" class="py-24 px-6 bg-slate-950/30">
+        <div class="max-w-4xl mx-auto">
+            <h2 class="text-3xl font-bold mb-16 text-center">Professional Journey</h2>
+            
+            <div class="space-y-12">
+                <div class="relative pl-8 border-l-2 border-blue-500/30" data-aos="fade-up">
+                    <div class="absolute -left-[9px] top-0 w-4 h-4 bg-blue-500 rounded-full shadow-[0_0_15px_rgba(59,130,246,0.5)]"></div>
+                    <span class="text-sm text-blue-400 font-mono">Present</span>
+                    <h3 class="text-xl font-bold">Senior Procurement Executive</h3>
+                    <p class="text-slate-400 font-medium">Machinemax India Pvt Ltd</p>
+                    <ul class="mt-4 space-y-2 text-slate-400 text-sm list-disc list-inside">
+                        <li>Lead end-to-end procurement and vendor negotiations.</li>
+                        <li>Manage inventory audits and 3PL coordination.</li>
+                        <li>Achieve cost optimization through strategic sourcing.</li>
+                    </ul>
+                </div>
+
+                <div class="relative pl-8 border-l-2 border-blue-500/30" data-aos="fade-up">
+                    <div class="absolute -left-[9px] top-0 w-4 h-4 bg-slate-700 rounded-full"></div>
+                    <span class="text-sm text-slate-500 font-mono">Previous</span>
+                    <h3 class="text-xl font-bold">Purchase Executive</h3>
+                    <p class="text-slate-400 font-medium">Diamant Triumph Metallplastic Pvt Ltd</p>
+                    <p class="mt-2 text-slate-400 text-sm italic">Handling imports, logistics coordination, and Excel-based reporting.</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section id="skills" class="py-24 px-6 max-w-6xl mx-auto">
+        <h2 class="text-3xl font-bold mb-12 text-center">Technical Toolkit</h2>
+        <div class="grid grid-cols-2 md:grid-cols-4 gap-6">
+            <div class="glass-card p-6 rounded-xl border-l-4 border-l-blue-500" data-aos="flip-left">
+                <h4 class="font-bold mb-2">ERP Systems</h4>
+                <p class="text-xs text-slate-400 uppercase tracking-tighter font-semibold">Oracle, Tranzact</p>
+            </div>
+            <div class="glass-card p-6 rounded-xl border-l-4 border-l-blue-500" data-aos="flip-left" data-aos-delay="100">
+                <h4 class="font-bold mb-2">Analysis</h4>
+                <p class="text-xs text-slate-400 uppercase tracking-tighter font-semibold">MS Excel, Data Modeling</p>
+            </div>
+            <div class="glass-card p-6 rounded-xl border-l-4 border-l-blue-500" data-aos="flip-left" data-aos-delay="200">
+                <h4 class="font-bold mb-2">Design</h4>
+                <p class="text-xs text-slate-400 uppercase tracking-tighter font-semibold">AutoCAD, CATIA</p>
+            </div>
+            <div class="glass-card p-6 rounded-xl border-l-4 border-l-blue-500" data-aos="flip-left" data-aos-delay="300">
+                <h4 class="font-bold mb-2">Management</h4>
+                <p class="text-xs text-slate-400 uppercase tracking-tighter font-semibold">Zoho, Tally Prime</p>
+            </div>
+        </div>
+    </section>
+
+    <section id="contact" class="py-24 px-6 bg-slate-950">
+        <div class="max-w-6xl mx-auto grid md:grid-cols-2 gap-16">
+            <div data-aos="fade-right">
+                <h2 class="text-4xl font-bold mb-6">Let's connect</h2>
+                <p class="text-slate-400 mb-8 text-lg">Discussing supply chain optimization or future collaborations.</p>
+                
+                <div class="space-y-6">
+                    <div class="flex items-center gap-4">
+                        <div class="w-12 h-12 rounded-full bg-blue-500/10 flex items-center justify-center text-blue-500">
+                            <i data-lucide="mail"></i>
+                        </div>
+                        <div>
+                            <p class="text-xs text-slate-500 uppercase">Email</p>
+                            <p class="font-medium">contact@vikaskavuru.com</p>
+                        </div>
+                    </div>
+                    <div class="flex items-center gap-4">
+                        <div class="w-12 h-12 rounded-full bg-blue-500/10 flex items-center justify-center text-blue-500">
+                            <i data-lucide="linkedin"></i>
+                        </div>
+                        <div>
+                            <p class="text-xs text-slate-500 uppercase">LinkedIn</p>
+                            <p class="font-medium">linkedin.com/in/vikaskavuru</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <div class="glass-card p-8 rounded-3xl" data-aos="fade-left">
+                <form class="space-y-4">
+                    <input type="text" placeholder="Your Name" class="w-full bg-slate-900/50 border border-slate-800 rounded-xl px-4 py-3 focus:outline-none focus:border-blue-500 transition">
+                    <input type="email" placeholder="Your Email" class="w-full bg-slate-900/50 border border-slate-800 rounded-xl px-4 py-3 focus:outline-none focus:border-blue-500 transition">
+                    <textarea rows="4" placeholder="Your Message" class="w-full bg-slate-900/50 border border-slate-800 rounded-xl px-4 py-3 focus:outline-none focus:border-blue-500 transition"></textarea>
+                    <button class="w-full bg-blue-600 hover:bg-blue-500 py-4 rounded-xl font-bold transition shadow-lg shadow-blue-900/20">Send Message</button>
+                </form>
+            </div>
+        </div>
+    </section>
+
+    <footer class="py-8 text-center text-slate-600 text-sm border-t border-slate-900">
+        &copy; 2026 Vikas Kavuru. All Rights Reserved.
+    </footer>
+
+    <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+    <script>
+        // Initialize Animations
+        AOS.init({
+            duration: 800,
+            once: true,
+        });
+
+        // Initialize Icons
+        lucide.createIcons();
+
+        // Smooth Scroll adjustment for sticky header
+        document.querySelectorAll('a[href^="#"]').forEach(anchor => {
+            anchor.addEventListener('click', function (e) {
+                e.preventDefault();
+                document.querySelector(this.getAttribute('href')).scrollIntoView({
+                    behavior: 'smooth'
+                });
+            });
+        });
+    </script>
+</body>
+</html>S
